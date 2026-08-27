@@ -20,11 +20,11 @@ app.get('/api/status', (req, res) => {
         status: 'operacional',
         data: new Date()
     });
-});
+});    
 
-app.post('/api/dados', (req, res) => {
+app.get('/api/dados', (req, res) => {
     res.status(201).json({
-        mensagem: 'Registro recebido com sucesso via POST.'
+        mensagem: 'Registro recebido com sucesso via POST'
     });
 });
 

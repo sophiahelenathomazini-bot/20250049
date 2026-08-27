@@ -4,7 +4,7 @@ const app = express();
 const PORTA = 4000;
 
 app.get('/', (req, res) => {
-    res.send('Bem vindo ao meu site');
+    res.send('Servidor Express funcionando corretamente');
 });
 
 app.get('/api/status', (req, res) => {
@@ -12,11 +12,11 @@ app.get('/api/status', (req, res) => {
         status: 'operacional',
         data: new Date()
     });
-});
+});    
 
-app.post('/api/dados', (req, res) => {
+app.get('/api/dados', (req, res) => {
     res.status(201).json({
-        mensagem: 'Registro recebido com sucesso via POST.'
+        mensagem: 'Registro recebido com sucesso via POST'
     });
 });
 

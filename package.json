@@ -13,8 +13,7 @@
     "dev-bloco3-ex3": "nodemon bloco3/ex3/server.js",
     "dev-bloco4-ex1": "nodemon bloco4/ex1/server.js",
     "dev-bloco4-ex2": "nodemon bloco4/ex2/server.js",
-    "dev-bloco5-ex1": "nodemon bloco5/ex1/server.js",
-    "dev-bloco5-ex2": "nodemon bloco5/ex2/server.js"
+    "dev-bloco5-ex_1_e_2": "nodemon bloco5/ex_1_e_2/server.js"
   },
   "keywords": [],
   "author": "",

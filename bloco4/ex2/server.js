@@ -20,5 +20,5 @@ app.get('/area-restrita', verificarToken, (req,res) => {
 });
 
 app.listen(3000, () => {
-    console.log('Servidor com middleware rodando na porta 3000');
-})
+    console.log(`Servidor rodando no endereço http://localhost:3000`);
+});

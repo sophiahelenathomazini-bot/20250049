@@ -12,5 +12,5 @@ app.get('/produtos/:id', (req, res) => {
 });
 
 app.listen(3000, () => {
-    console.log('Servido escutando na porta 3000');
+    console.log(`Servidor rodando no endereço http://localhost:3000`);
 });
